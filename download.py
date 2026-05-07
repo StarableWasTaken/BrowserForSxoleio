@@ -14,4 +14,4 @@ for package in packages:
         package
     ])
 
-print("\nEverything installed successfully.")
+print("\nEverything installed successfully")
