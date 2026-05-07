@@ -1,6 +1,6 @@
 import sys
 
-# slightly less ugly browser UI because apparently aesthetics matter now
+# ligo pio omorfo version
 from PyQt5.QtCore import QUrl
 from PyQt5.QtWidgets import (
     QSizePolicy,
@@ -156,7 +156,7 @@ class MinimalBrowser(QMainWindow):
         reload_btn.triggered.connect(lambda: self.current_browser().reload())
         toolbar.addAction(reload_btn)
 
-        # removed undo/redo because Qt treats them like decorative placebo buttons half the time
+        # afairesh undo/redo gt Qt pisteue pws htan diakosmhsh gia kapoion logo
 
         new_tab_btn = QAction("＋", self)
         new_tab_btn.triggered.connect(lambda: self.add_new_tab())
